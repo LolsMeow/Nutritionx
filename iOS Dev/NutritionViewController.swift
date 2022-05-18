@@ -36,7 +36,7 @@ class NutritionViewController: UITableViewController {
         let headers =
         [
             "x-rapidapi-host": "nutritionix-api.p.rapidapi.com",
-            "x-rapidapi-key": "3f5c9b698bmsh4a33f82d27cbb8dp1744e9jsn84d55dd9c721"
+            "x-rapidapi-key": ""
         ]
         request.allHTTPHeaderFields = headers
         
