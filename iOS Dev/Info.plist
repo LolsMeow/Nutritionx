@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We will use your location all the time</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We will only use your location when you have the app open</string>
+	<key>NSLocationUsageDescription</key>
+	<string>This is required for GPS Location Services</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+					<key>NSLocationAlwaysUsageDescription</key>
+					<string>Your location is required for GPS benefits for you</string>
+					<key>NSLocationWhenInUseUsageDescription</key>
+					<string>Your location is required for GPS benefits for you</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
