@@ -134,9 +134,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         
         // Specify the Headers
         let headers = [
-            "x-api-key": "3294ff5c3df66faf2211334c43e27a51",
+            "x-api-key": "",
             "x-rapidapi-host": "documenu.p.rapidapi.com",
-            "x-rapidapi-key": "3f5c9b698bmsh4a33f82d27cbb8dp1744e9jsn84d55dd9c721"
+            "x-rapidapi-key": ""
         ]
         request.allHTTPHeaderFields = headers
         
